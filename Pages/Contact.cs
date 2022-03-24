@@ -5,6 +5,7 @@ namespace Salwa_webappnetLab1.Pages;
 
 public class ContactModel : PageModel
 {
+    public string Message { get; private set; } = "Message!";
     private readonly ILogger<ContactModel> _logger;
 
     public ContactModel(ILogger<ContactModel> logger)
@@ -14,6 +15,7 @@ public class ContactModel : PageModel
 
     public void OnGet()
     {
+        Message += $"the time is{DateTime.Now}";
     }
 }
 
