@@ -15,7 +15,7 @@ public class ContactModel : PageModel
 
     public void OnGet()
     {
-        Message += $"the time is{DateTime.Now}";
+        Message += $" the time is {DateTime.Now}";
     }
 }
 
