@@ -20,3 +20,7 @@ body {
 footer{
   background-color: wheat;
 }
+p{
+  color: chocolate;
+  font-style: oblique;
+}
